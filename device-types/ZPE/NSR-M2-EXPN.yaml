@@ -1,0 +1,16 @@
+---
+manufacturer: ZPE
+model: NSR M.2 Carrier Expansion Card
+slug: zpe-nsr-m2-expn
+part_number: NSR-M2-EXPN
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+description: M.2 carrier expansion card with two channels for Wi-Fi, disk, or cellular modules (4 SIM slots not modeled - no native NetBox SIM type)
+module-bays:
+  - name: channel-a
+    position: '1'
+    description: M.2 Channel A (Wi-Fi / NVMe / Cellular)
+  - name: channel-b
+    position: '2'
+    description: M.2 Channel B (Wi-Fi / NVMe / Cellular)

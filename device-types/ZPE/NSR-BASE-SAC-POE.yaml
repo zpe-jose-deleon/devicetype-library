@@ -1,8 +1,8 @@
 ---
 manufacturer: ZPE
-model: Net SR 4C Lite DAC
-slug: zpe-nsr-lite-dac
-part_number: NSR-LITE-DAC
+model: Net SR 4C SAC PoE
+slug: zpe-nsr-base-sac-poe
+part_number: NSR-BASE-SAC-POE
 u_height: 1
 is_full_depth: false
 subdevice_role: parent
@@ -10,8 +10,9 @@ airflow: side-to-rear
 weight: 4.9
 weight_unit: kg
 description: >-
-  Modular chassis (no Backplane Switch), 4-Core Intel CPU, 32GB mSATA, 5 Slots,
-  2x SFP+, 2x GbE, 3x USB, 1x Console, Dual AC Power Supply
+  Modular chassis, 4-Core Intel CPU, Backplane Switch, 32GB mSATA, 5 Slots,
+  2x SFP+, 2x GbE, 3x USB, 1x HDMI, 1x Console, Single AC Power Supply,
+  PoE (via NSR-8ETH-POE-EXPN)
 comments: '[ZPE Nodegrid Net SR Data Sheet](https://go.zpesystems.com/rs/004-BTR-463/images/Datasheet-Nodegrid-Net-SR.pdf)'
 console-ports:
   - name: Console
@@ -29,14 +30,11 @@ console-server-ports:
   - name: usbS0-3
     label: USB
     type: usb-a
-    description: USB 2.0, Rear Bottom
+    description: USB 2.0, Rear Bottom (above HDMI)
 power-ports:
   - name: PS1
     type: iec-60320-c14
     description: Rear Left
-  - name: PS2
-    type: iec-60320-c14
-    description: Rear Center
 interfaces:
   - name: eth0
     label: ETH 0
@@ -47,9 +45,16 @@ interfaces:
   - name: sfp0
     label: SFP 0
     type: 10gbase-x-sfpp
+
   - name: sfp1
     label: SFP 1
     type: 10gbase-x-sfpp
+
+  - name: backplane0
+    type: 10gbase-kr
+  - name: backplane1
+    type: 10gbase-kr
+
 device-bays:
   - name: slot-1
     description: Card slot, Front Left

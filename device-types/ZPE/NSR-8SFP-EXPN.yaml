@@ -1,0 +1,27 @@
+---
+manufacturer: ZPE
+model: ZPE
+model: NSR 8-Port 10GbE SFP+ Expansion Card
+slug: zpe-nsr-8sfp-expn
+part_number: NSR-8SFP-EXPN
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+description: 8-port 10GbE SFP+ expansion card for Nodegrid NSR series
+interfaces:
+  - name: net{slot}-1
+    type: 10gbase-x-sfpp
+  - name: net{slot}-2
+    type: 10gbase-x-sfpp
+  - name: net{slot}-3
+    type: 10gbase-x-sfpp
+  - name: net{slot}-4
+    type: 10gbase-x-sfpp
+  - name: net{slot}-5
+    type: 10gbase-x-sfpp
+  - name: net{slot}-6
+    type: 10gbase-x-sfpp
+  - name: net{slot}-7
+    type: 10gbase-x-sfpp
+  - name: net{slot}-8
+    type: 10gbase-x-sfpp

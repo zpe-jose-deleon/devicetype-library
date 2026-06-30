@@ -1,0 +1,42 @@
+---
+manufacturer: ZPE
+model: NSR 16-Port Serial Expansion Card
+slug: zpe-nsr-16s-expn
+part_number: NSR-16S-EXPN
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+description: 16-port serial console expansion card for Nodegrid NSR series
+console-server-ports:
+  - name: ttyS{slot}-1
+    type: rj-45
+  - name: ttyS{slot}-2
+    type: rj-45
+  - name: ttyS{slot}-3
+    type: rj-45
+  - name: ttyS{slot}-4
+    type: rj-45
+  - name: ttyS{slot}-5
+    type: rj-45
+  - name: ttyS{slot}-6
+    type: rj-45
+  - name: ttyS{slot}-7
+    type: rj-45
+  - name: ttyS{slot}-8
+    type: rj-45
+  - name: ttyS{slot}-9
+    type: rj-45
+  - name: ttyS{slot}-10
+    type: rj-45
+  - name: ttyS{slot}-11
+    type: rj-45
+  - name: ttyS{slot}-12
+    type: rj-45
+  - name: ttyS{slot}-13
+    type: rj-45
+  - name: ttyS{slot}-14
+    type: rj-45
+  - name: ttyS{slot}-15
+    type: rj-45
+  - name: ttyS{slot}-16
+    type: rj-45

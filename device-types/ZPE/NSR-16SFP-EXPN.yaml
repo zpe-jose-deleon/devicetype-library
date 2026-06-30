@@ -1,0 +1,42 @@
+---
+manufacturer: ZPE
+model: NSR 16-Port 1GbE SFP Expansion Card
+slug: zpe-nsr-16sfp-expn
+part_number: NSR-16SFP-EXPN
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+description: 16-port 1GbE SFP expansion card for Nodegrid NSR series
+interfaces:
+  - name: net{slot}-1
+    type: 1000base-x-sfp
+  - name: net{slot}-2
+    type: 1000base-x-sfp
+  - name: net{slot}-3
+    type: 1000base-x-sfp
+  - name: net{slot}-4
+    type: 1000base-x-sfp
+  - name: net{slot}-5
+    type: 1000base-x-sfp
+  - name: net{slot}-6
+    type: 1000base-x-sfp
+  - name: net{slot}-7
+    type: 1000base-x-sfp
+  - name: net{slot}-8
+    type: 1000base-x-sfp
+  - name: net{slot}-9
+    type: 1000base-x-sfp
+  - name: net{slot}-10
+    type: 1000base-x-sfp
+  - name: net{slot}-11
+    type: 1000base-x-sfp
+  - name: net{slot}-12
+    type: 1000base-x-sfp
+  - name: net{slot}-13
+    type: 1000base-x-sfp
+  - name: net{slot}-14
+    type: 1000base-x-sfp
+  - name: net{slot}-15
+    type: 1000base-x-sfp
+  - name: net{slot}-16
+    type: 1000base-x-sfp

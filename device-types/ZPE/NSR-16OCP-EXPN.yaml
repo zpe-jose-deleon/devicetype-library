@@ -1,0 +1,42 @@
+---
+manufacturer: ZPE
+model: NSR 16-Port OCP Expansion Card
+slug: zpe-nsr-16ocp-expn
+part_number: NSR-16OCP-EXPN
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+description: 16-port OCP expansion card for Nodegrid NSR series (port labels TBD - verify physically)
+interfaces:
+  - name: ocp{slot}-1
+    type: other
+  - name: ocp{slot}-2
+    type: other
+  - name: ocp{slot}-3
+    type: other
+  - name: ocp{slot}-4
+    type: other
+  - name: ocp{slot}-5
+    type: other
+  - name: ocp{slot}-6
+    type: other
+  - name: ocp{slot}-7
+    type: other
+  - name: ocp{slot}-8
+    type: other
+  - name: ocp{slot}-9
+    type: other
+  - name: ocp{slot}-10
+    type: other
+  - name: ocp{slot}-11
+    type: other
+  - name: ocp{slot}-12
+    type: other
+  - name: ocp{slot}-13
+    type: other
+  - name: ocp{slot}-14
+    type: other
+  - name: ocp{slot}-15
+    type: other
+  - name: ocp{slot}-16
+    type: other

@@ -1,0 +1,42 @@
+---
+manufacturer: ZPE
+model: NSR 16-Port USB-A Expansion Card
+slug: zpe-nsr-16usb-expn
+part_number: NSR-16USB-EXPN
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+description: 16-port USB-A console expansion card for Nodegrid NSR series
+console-server-ports:
+  - name: usb{slot}-1
+    type: usb-a
+  - name: usb{slot}-2
+    type: usb-a
+  - name: usb{slot}-3
+    type: usb-a
+  - name: usb{slot}-4
+    type: usb-a
+  - name: usb{slot}-5
+    type: usb-a
+  - name: usb{slot}-6
+    type: usb-a
+  - name: usb{slot}-7
+    type: usb-a
+  - name: usb{slot}-8
+    type: usb-a
+  - name: usb{slot}-9
+    type: usb-a
+  - name: usb{slot}-10
+    type: usb-a
+  - name: usb{slot}-11
+    type: usb-a
+  - name: usb{slot}-12
+    type: usb-a
+  - name: usb{slot}-13
+    type: usb-a
+  - name: usb{slot}-14
+    type: usb-a
+  - name: usb{slot}-15
+    type: usb-a
+  - name: usb{slot}-16
+    type: usb-a

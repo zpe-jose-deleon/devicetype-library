@@ -1,0 +1,34 @@
+---
+manufacturer: ZPE
+model: NSR 8-Port 1GbE PoE+ Expansion Card
+slug: zpe-nsr-8eth-poe-expn
+part_number: NSR-8ETH-POE-EXPN
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+description: 8-port 1GbE PoE+ copper expansion card for Nodegrid NSR series
+interfaces:
+  - name: net{slot}-1
+    type: 1000base-t
+    description: PoE+
+  - name: net{slot}-2
+    type: 1000base-t
+    description: PoE+
+  - name: net{slot}-3
+    type: 1000base-t
+    description: PoE+
+  - name: net{slot}-4
+    type: 1000base-t
+    description: PoE+
+  - name: net{slot}-5
+    type: 1000base-t
+    description: PoE+
+  - name: net{slot}-6
+    type: 1000base-t
+    description: PoE+
+  - name: net{slot}-7
+    type: 1000base-t
+    description: PoE+
+  - name: net{slot}-8
+    type: 1000base-t
+    description: PoE+

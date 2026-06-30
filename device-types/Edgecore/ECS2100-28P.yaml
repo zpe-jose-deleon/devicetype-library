@@ -1,0 +1,78 @@
+---
+manufacturer: Edgecore
+model: ECS2100-28P
+slug: edgecore-ecs2100-28p
+part_number: ECS2100-28P
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+description: Edgecore ECS2100-28P 24-port GE + 4-port SFP PoE+ Switch
+interfaces:
+  - name: ge1
+    type: 1000base-t
+  - name: ge2
+    type: 1000base-t
+  - name: ge3
+    type: 1000base-t
+  - name: ge4
+    type: 1000base-t
+  - name: ge5
+    type: 1000base-t
+  - name: ge6
+    type: 1000base-t
+  - name: ge7
+    type: 1000base-t
+  - name: ge8
+    type: 1000base-t
+  - name: ge9
+    type: 1000base-t
+  - name: ge10
+    type: 1000base-t
+  - name: ge11
+    type: 1000base-t
+  - name: ge12
+    type: 1000base-t
+  - name: ge13
+    type: 1000base-t
+  - name: ge14
+    type: 1000base-t
+  - name: ge15
+    type: 1000base-t
+  - name: ge16
+    type: 1000base-t
+  - name: ge17
+    type: 1000base-t
+  - name: ge18
+    type: 1000base-t
+  - name: ge19
+    type: 1000base-t
+  - name: ge20
+    type: 1000base-t
+  - name: ge21
+    type: 1000base-t
+  - name: ge22
+    type: 1000base-t
+  - name: ge23
+    type: 1000base-t
+  - name: ge24
+    type: 1000base-t
+  - name: sfp1
+    type: 1000base-x-sfp
+  - name: sfp2
+    type: 1000base-x-sfp
+  - name: sfp3
+    type: 1000base-x-sfp
+  - name: sfp4
+    type: 1000base-x-sfp
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+    description: AC Power Supply 1
+  - name: PS2
+    type: iec-60320-c14
+    description: AC Power Supply 2 (redundant)
+console-ports:
+  - name: console
+    type: rj-45
+    label: CONSOLE

@@ -1,0 +1,16 @@
+---
+manufacturer: ZPE
+model: NSR Disk Carrier Expansion Card
+slug: zpe-nsr-disk-expn
+part_number: NSR-DISK-EXPN
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+description: SATA disk carrier expansion card for Nodegrid NSR series
+module-bays:
+  - name: sata-1
+    position: '1'
+    description: SATA Drive Bay 1
+  - name: sata-2
+    position: '2'
+    description: SATA Drive Bay 2

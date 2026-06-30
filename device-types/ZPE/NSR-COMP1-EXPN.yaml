@@ -1,0 +1,27 @@
+---
+manufacturer: ZPE
+model: NSR Compute Blade 8-Core
+slug: zpe-nsr-comp1-expn
+part_number: NSR-COMP1-EXPN
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+description: 8-core compute blade for Nodegrid NSR series
+interfaces:
+  - name: eth{slot}-1
+    type: 1000base-t
+    description: Management Ethernet
+  - name: backplane{slot}-1
+    type: 10gbase-kr
+    description: Backplane fabric link 1
+  - name: backplane{slot}-2
+    type: 10gbase-kr
+    description: Backplane fabric link 2
+console-ports:
+  - name: console{slot}
+    type: rj-45
+    description: Management console
+console-server-ports:
+  - name: usb{slot}-1
+    type: usb-a
+    description: USB 2.0
